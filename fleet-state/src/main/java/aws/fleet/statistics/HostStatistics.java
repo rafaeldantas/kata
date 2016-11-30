@@ -13,7 +13,7 @@ import aws.fleet.domain.InstanceType;
  *
  * Per Host report type (EMPTY, FULL, MOST FILLED) Statistics
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class HostStatistics implements Statistics {

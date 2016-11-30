@@ -18,7 +18,7 @@ import aws.fleet.util.Logger;
 /**
  * {@link StatisticsService} implementation. Reads an input file
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class FileSystemStatisticsService implements StatisticsService {

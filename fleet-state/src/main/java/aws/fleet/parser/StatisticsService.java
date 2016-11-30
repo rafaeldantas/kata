@@ -5,7 +5,7 @@ import aws.fleet.statistics.Statistics;
 /**
  * Reads lines as String from a input File
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public interface StatisticsService {

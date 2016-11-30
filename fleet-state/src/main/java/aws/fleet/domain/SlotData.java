@@ -5,7 +5,7 @@ import aws.fleet.util.Preconditions;
 /**
  * Holds the amount of free and busy slots on a particular {@link Host}
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class SlotData {

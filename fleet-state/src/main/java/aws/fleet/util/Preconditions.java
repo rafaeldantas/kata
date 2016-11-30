@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 /**
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class Preconditions {

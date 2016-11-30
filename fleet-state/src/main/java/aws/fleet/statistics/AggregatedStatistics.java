@@ -10,7 +10,7 @@ import aws.fleet.util.Logger;
 /**
  * Aggregates empty, full and mostFilled reports into one
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class AggregatedStatistics implements Statistics {

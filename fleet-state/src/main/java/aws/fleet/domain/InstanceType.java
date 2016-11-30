@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 /**
  * A server Instance Type.
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public enum InstanceType {

@@ -5,7 +5,7 @@ import aws.fleet.domain.Host;
 /**
  * Parses a String line into a {@link Host}
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public interface LineParser {

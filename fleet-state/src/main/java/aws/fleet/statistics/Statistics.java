@@ -4,7 +4,7 @@ import aws.fleet.domain.Host;
 
 /**
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public interface Statistics {

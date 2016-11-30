@@ -9,7 +9,7 @@ import aws.fleet.util.Preconditions;
  * Each host has a fixed number of slots in which virtual instances can run. Each host can only run instances of a particular type, e.g. M1, M2, or M3
  * </pre>
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class Host {
@@ -52,7 +52,7 @@ public class Host {
 
 	// Equals and HashCode are not exactly OO, but I'm assuming that the host id
 	// is the only thing that actually makes it comparable to other hosts. In
-	// the sense that is ok to have multiple hosts, with the same
+	// the sense that it's ok to have multiple hosts, with the same
 	// setup (Instance Type and Slots availability)
 
 	@Override

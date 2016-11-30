@@ -23,7 +23,7 @@ import aws.fleet.util.Preconditions;
  * </pre>
  *
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class CsvParser implements LineParser {

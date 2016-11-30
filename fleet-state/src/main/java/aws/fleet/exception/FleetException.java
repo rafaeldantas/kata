@@ -4,7 +4,7 @@ package aws.fleet.exception;
  * General purpose {@link RuntimeException}. Wraps Checked {@link Exception}s
  * when no action is required from the client
  *
- * @author rafael
+ * @author rafaeldantas@gmail.com
  *
  */
 public class FleetException extends RuntimeException {
