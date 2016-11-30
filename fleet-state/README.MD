@@ -1,3 +1,6 @@
+# Host Fleet State
+
+### About
 The task consists of calculating summary statistics for a fleet of hosts. Each host has a fixed number of slots in which virtual instances can run. Each host can only run instances of a particular type, e.g. M1, M2, or M3. You are provided with the file “FleetState.txt” that contains the state of the fleet. Each line in the file represents a single host in the following comma-separated format:
 
 HostID,InstanceType,N,Slot1State,Slot2State,…,SlotNState
@@ -18,3 +21,14 @@ The output file must have the following format:
 EMPTY: M1=count; M2=count; M3=count;
 FULL: M1=count; M2=count>; M3=count;
 MOST FILLED: M1=count,empty slots; M2=count,empty slots; M3=count,empty slots;
+
+### Build from source
+```
+./gradlew 
+```
+Will build, run the tests and create the executable jar
+
+### Executing
+```
+java -jar build/libs/fleet-state.jar --input /path/to/FleetState.txt --output /path/to/Statistics.txt
+```
