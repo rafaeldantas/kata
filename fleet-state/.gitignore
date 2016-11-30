@@ -5,5 +5,4 @@
 target/
 bin/
 build/
-
-/.gradle/
+.gradle/
